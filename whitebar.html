@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual NPO Site</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #e2619b;
+            margin: 0;
+        }
+        header {
+            background-color: #dce6ef;
+            padding: 30px;
+            text-align: center;
+        }
+        nav {
+            background-color: #181717;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: #333;
+        }
+        main {
+            padding: 0px;
+            max-width: 1000px;
+            background-color: darkblue;
+            margin: 0 auto;
+        }
+        .image-area{
+            width: 100%;
+            height: 600px;
+            background-image: url("img/image_boy.png");
+            background-size: auto;
+            background-position: center;
+            background-repeat: repeat-y;
+            overflow: scroll;
+        }
+        .image-area img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        footer {
+            background-color: #dce6ef;
+            text-align: center;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Makes your LIFE glitter</h1>
+    </header>
+    <nav>
+            <a href="whitebar.html">HOME</a>
+            <a href="background.html">COMPANY</a>
+            <a href="HOW.html">HOW</a>
+            <a href="FORM.html">FORM</a>
+    </nav>
+
+    <main>
+            <div class="image-area">
+                <img src="img/image_boy.png" alt="画像" >
+    </main>
+    <nav>
+        <a href="whitebar.html">HOME</a>
+        <a href="background.html">COMPANY</a>
+        <a href="HOW.html">HOW</a>
+        <a href="FORM.html">FORM</a>
+        
+    </nav>
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
